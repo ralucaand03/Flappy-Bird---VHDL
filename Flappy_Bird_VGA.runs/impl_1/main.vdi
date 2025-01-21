@@ -1,0 +1,200 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May 31 10:44:07 2023
+# Process ID: 11592
+# Current directory: C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.runs/impl_1
+# Command line: vivado.exe -log main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source main.tcl -notrace
+# Log file: C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.runs/impl_1/main.vdi
+# Journal file: C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 322.078 ; gain = 74.012
+Command: link_design -top main -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 270 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L8N_T1_AD14N_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:1]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L7N_T1_AD6N_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:2]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L1N_T0_AD4N_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:3]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L8P_T1_AD14P_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:4]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L1P_T0_AD4P_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:6]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L3N_T0_DQS_AD5N_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:7]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L2N_T0_AD12N_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:8]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L3P_T0_DQS_AD5P_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:9]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L2P_T0_AD12P_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:11]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L4N_T0_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:12]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L6N_T0_VREF_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:13]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L4P_T0_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:14]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L4P_T0_15"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:16]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L3N_T0_DQS_AD1N_15"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:17]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L12P_T1_MRCC_35"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:19]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L9P_T1_DQS_14"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:22]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L24N_T3_A00_D16_14"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:25]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_25_14"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:26]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_25_15"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:27]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L17P_T2_A26_15"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:28]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L13P_T2_MRCC_14"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:29]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L19P_T3_A10_D26_14"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:30]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L4P_T0_D04_14"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:31]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L23P_T3_FOE_B_15"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:35]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L23N_T3_FWE_B_15"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:36]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L24P_T3_A01_D17_14"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:37]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "IO_L19P_T3_A22_15"
+ [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc:38]
+Finished Parsing XDC File [C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.srcs/constrs_1/new/constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 664.199 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 0 Warnings, 27 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 668.250 ; gain = 340.777
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 675.309 ; gain = 7.059
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 115b7ed5f
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 1238.066 ; gain = 562.758
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 115b7ed5f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.376 . Memory (MB): peak = 1335.328 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 109cd791f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.474 . Memory (MB): peak = 1335.328 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 191a28384
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.891 . Memory (MB): peak = 1335.328 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 191a28384
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1335.328 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 1e3e3a2e6
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1335.328 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1e3e3a2e6
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1335.328 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1335.328 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1e3e3a2e6
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1335.328 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1e3e3a2e6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.370 . Memory (MB): peak = 1335.328 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1e3e3a2e6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1335.328 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1335.328 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1e3e3a2e6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1335.328 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+23 Infos, 0 Warnings, 27 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 1335.328 ; gain = 667.078
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1335.328 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.575 . Memory (MB): peak = 1335.328 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1335.328 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.runs/impl_1/main_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file main_drc_opted.rpt -pb main_drc_opted.pb -rpx main_drc_opted.rpx
+Command: report_drc -file main_drc_opted.rpt -pb main_drc_opted.pb -rpx main_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified

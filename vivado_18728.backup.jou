@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue May  9 21:23:29 2023
+# Process ID: 18728
+# Current directory: C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18036 C:\Users\Ral\Pictures\Ralu\1POLi\Semestrul 2\DSD\Projects\Flappy_Bird_VGA\Flappy_Bird_VGA.xpr
+# Log file: C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/vivado.log
+# Journal file: C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project {C:/Users/Ral/Pictures/Ralu/1POLi/Semestrul 2/DSD/Projects/Flappy_Bird_VGA/Flappy_Bird_VGA.xpr}uupdate_compile_order -fileset sources_1
